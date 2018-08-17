@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<script language="javascript">
+function copytext(form)
+{
+	var x = form.text.value;
+	document.getElementById("copy").innerHTML = x;
+}
+</script>
+
+<script language="javascript">
+function getarea(form)
+{
+var r = form.radius.value;
+document.getElementById("area").innerHTML = 3.14*r**2;
+}
+</script>
+
+<script language="javascript">
+function converttemp(form)
+{
+var t = form.fahrenheit.value;
+document.getElementById("celsius").innerHTML = (t-32)*5/9;
+}
+</script>
+<title>JS Test</title>
+</head>
+
+<body>
+
+<form>
+
+<textarea name="text" cols="50" rows="10"></textarea>
+</br>
+<textarea cols="50" rows="10" id="copy"></textarea>
+</br>
+<input type=button value="Copy Text" onclick="copytext(this.form)"/>
+
+</form>
+</br>
+</br>
+<form>
+
+<textarea name="radius" cols="10" rows="1"></textarea>
+</br>
+<textarea cols="10" rows="1" id="area"></textarea>
+</br>
+<input type=button value="Get Area" onclick="getarea(this.form)"/>
+
+</form>
+</br>
+</br>
+<form>
+
+<textarea name="fahrenheit" cols="10" rows="1"></textarea>
+</br>
+<textarea cols="10" rows="1" id="celsius"></textarea>
+</br>
+<input type=button value="Convert Temperature" onclick="converttemp(this.form)"/>
+
+</form>
+
+</body>
+
+</html>

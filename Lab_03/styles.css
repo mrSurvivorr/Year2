@@ -1,0 +1,61 @@
+p[name="overflow"] {
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+div[name="wordbreak"] {
+	width: 300px;
+	word-break: break-all;
+}
+
+p[name="wordwrap"] {
+	width: 300px;
+	word-wrap: break-word;
+}
+
+div[name="grad"] {
+	height: 100px;
+	width: 300px;
+	background: linear-gradient(30deg, black, silver, maroon);
+}
+
+div[name="border"] {
+	height: 50px;
+	width: 300px;
+	border: 2px solid red;
+	border-radius: 10px 10px 10px 10px;
+}
+
+p[name="textshadow"] {
+	color: red;
+	text-shadow: 5px 3px 1px maroon;
+}
+
+div[name="boxshadow"] {
+	width: 300px;
+	height: 100px;
+	background: teal;
+	color: white;
+	box-shadow: 5px 3px 2px 2px aqua;
+}
+
+div[name="trans"] {
+	width: 300px;
+	height: 50px;
+	background: red;
+	transition-property: background;
+}
+div[name="trans"]:hover {
+	background: maroon;
+}
+
+div[name="transf"] {
+	width: 300px;
+	height: 50px;
+	background: teal;	
+}
+div[name="transf"]:hover {
+	transform: skew(-20deg);	
+}
