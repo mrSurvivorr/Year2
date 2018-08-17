@@ -1,0 +1,64 @@
+﻿<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script type="text/javascript" src="Script.js" defer="defer"></script>
+<title>Calculator</title>
+</head>
+
+<body>
+
+<div class="shell">
+
+	<div class="header">Semi-Engineering Calculator</div>
+	
+	<div class="subheader">
+	
+		<table class="links">
+		
+			<tr>
+				<th><a href="default.html">Calculator</a></th>
+				<th><a href="colors.html">Random Color Generator</a></th>
+				<th><a href="profits.html">Profit/Costs</a></th>			
+			</tr>
+		
+		</table>
+	
+	</div>
+	
+	<div class="body">
+	
+		<h2>Input your number here</h2>
+		
+		<input name="num" class="input_field" type="text" id="num"/>
+		
+		<h4>Input your exponent here</h4>
+		
+		<input name="n" class="input_field" type="text" id="n"/>
+		
+		<br />
+		<br />
+		
+		<button class="op" onclick="sin()">Sin</button>
+		<button class="op" onclick="cos()">Cos</button>
+		<button class="op" onclick="tg()">Tg</button>
+		<button class="op" onclick="ctg()">Ctg</button>
+		<button class="op" onclick="pow()">Power</button>
+		<button class="op" onclick="rt()">Root</button>
+		
+		<br />
+		
+		<hr />
+		
+		<h2>Your result</h2>
+		
+		<h3 id="result"></h3>
+	
+	</div>
+	
+</div>
+
+</body>
+
+</html>

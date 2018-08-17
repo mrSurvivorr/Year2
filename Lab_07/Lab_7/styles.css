@@ -1,0 +1,121 @@
+﻿body {
+	background-color: white;
+}
+
+div.shell {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+div.header {
+	width: 100%;
+	text-align: center;
+	font-family: "BankGothic Md BT";
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	background-color: maroon;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+div.subheader {
+	width: 100%;
+	text-align: center;
+	font-family: "BankGothic Md BT";
+	font-size: 20px;
+	color: gray;
+	background-color: silver;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+div.body {
+	width: 100%;
+	text-align: center;
+	font-family: "BankGothic Md BT";
+	font-size: 14px;
+	color: black;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.op {
+	width: 120px;
+	background-color: white;
+	font-family: "BankGothic Md BT";
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: silver;
+	border: 2px solid silver;
+	border-radius: 4px;
+	padding: 2px 10px;
+	margin: 5px;
+	box-shadow: 0px 5px silver;
+}
+
+.op:hover {
+	background-color: silver;
+	border: 2px solid gray;
+	color: gray;
+	box-shadow: 0px 5px gray;
+}
+
+.op:active {
+	background-color: green;
+	color: lime;
+	border: 2px solid lime;
+	box-shadow: 0px 3px gray;
+	transform: translateY(2px);
+}
+
+a:link {
+	color: gray;
+	font-family: "BankGothic Md BT";					
+	text-decoration: underline;		
+}
+
+a:visited {
+	color: gray;
+	font-family: "BankGothic Md BT";					
+	text-decoration: underline;		
+}
+
+a:active {
+	color: maroon;
+	font-family: "BankGothic Md BT";					
+	text-decoration: underline;		
+}
+
+a:hover {
+	color: black;
+	font-family: "BankGothic Md BT";					
+	text-decoration: underline;		
+}
+
+table.links {
+	width: 100%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.input_field {
+	width: 20%;
+}
+
+table.colors {
+	width: 100%;
+	padding: 1px;
+	margin: 1px;
+	color: black;
+	text-align: center;
+}
+
+table.colors  td{
+	width: 200px;
+}
